@@ -5,6 +5,18 @@ export default {
     preflight: true,
   },
   theme: {
+    // keep 100 200 and only change default
+    transitionDuration: {
+      DEFAULT: '300ms',
+      75: '75ms',
+      100: '100ms',
+      150: '150ms',
+      200: '200ms',
+      300: '300ms',
+      500: '500ms',
+      700: '700ms',
+      1000: '1000ms',
+    },
     extend: {},
   },
   plugins: [
